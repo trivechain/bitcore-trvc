@@ -1,16 +1,15 @@
-Bitcore-Dash
-=======
+# Bitcore-Dash
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-dash)
+[![Build Status](https://img.shields.io/travis/dashevo/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-dash)
 
 Infrastructure to build Dash and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashpay/bitcore-lib-dash
+**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashevo/bitcore-lib-dash
 
 ## Getting Started
 
-Before you begin you'll need to have Node.js v4 or v0.12 installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
+Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
 npm install -g bitcore-dash
@@ -35,24 +34,24 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Dash](https://github.com/dashpay/bitcore-node-dash) - A full node with extended capabilities using Dash Core
-- [Insight API-Dash](https://github.com/dashpay/insight-api-dash) - A blockchain explorer HTTP API
-- [Insight UI-Dash](https://github.com/dashpay/insight-ui-dash) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/dashpay/bitcore-wallet-service-dash) - A multisig HD service for wallets
-- [Wallet Client](https://github.com/dashpay/bitcore-wallet-client-dash) - A client for the wallet service
+- [Node-Dash](https://github.com/dashevo/bitcore-node-dash) - A full node with extended capabilities using Dash Core
+- [Insight API-Dash](https://github.com/dashevo/insight-api-dash) - A blockchain explorer HTTP API
+- [Insight UI-Dash](https://github.com/dashevo/insight-ui-dash) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-dash) - A multisig HD service for wallets
+- [Wallet Client](https://github.com/dashevo/bitcore-wallet-client-dash) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
 - Copay - An easy-to-use, multiplatform, multisignature, secure Dash wallet
 
 ## Libraries
 
-- [Lib-Dash](https://github.com/dashpay/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
+- [Lib-Dash](https://github.com/dashevo/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-Dash](https://github.com/dashpay/bitcore-p2p-dash) - The peer-to-peer networking protocol
-- [Mnemonic-Dash](https://github.com/dashpay/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
+- [P2P-Dash](https://github.com/dashevo/bitcore-p2p-dash) - The peer-to-peer networking protocol
+- [Mnemonic-Dash](https://github.com/dashevo/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
 - Channel - Micropayment channels for rapidly adjusting Dash transactions
-- [Message-Dash](https://github.com/dashpay/bitcore-message-dash) - Dash message verification and signing
-- [ECIES-Dash](https://github.com/dashpay/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [Message-Dash](https://github.com/dashevo/bitcore-message-dash) - Dash message verification and signing
+- [ECIES-Dash](https://github.com/dashevo/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
 
@@ -71,19 +70,10 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-dash/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
-You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/bitpay/bitcore/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
-
-To verify signatures, use the following PGP keys:
-- @braydonf: https://pgp.mit.edu/pks/lookup?op=get&search=0x9BBF07CAC07A276D
-- @kleetus: https://pgp.mit.edu/pks/lookup?op=get&search=0x33195D27EF6BDB7F
-- @pnagurny: https://pgp.mit.edu/pks/lookup?op=get&search=0x0909B33F0AA53013
-
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
-
-Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
