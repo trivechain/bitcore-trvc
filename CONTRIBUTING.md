@@ -12,7 +12,7 @@ Ideally, please make sure to run:
 
 ## Design Guidelines
 
-These are some global design goals in bitcore-dash that any change must adhere.
+These are some global design goals in bitcore-dash to which any change should adhere.
 
 ### D1 - Naming Matters
 
