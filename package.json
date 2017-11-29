@@ -2,7 +2,7 @@
   "name": "bitcore-dash",
   "version": "4.1.3",
   "description": "A platform to build Dash and blockchain-based applications.",
-  "author": "BitPay <dev@bitpay.com>",
+  "author": "Dash Core Group <dev@dash.org>",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive",
@@ -76,7 +76,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashpay/bitcore-dash.git"
+    "url": "https://github.com/dashevo/bitcore-dash.git"
   },
   "browser": {
     "request": "browser-request"
