@@ -1,24 +1,24 @@
-# Bitcore-Dash
+# bitcore-trvc
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-dash)
-[![Build Status](https://img.shields.io/travis/dashevo/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-trvc.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-trvc)
+[![Build Status](https://img.shields.io/travis/dashevo/bitcore-trvc.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-trvc)
 
 Infrastructure to build Dash and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashevo/bitcore-lib-dash
+**Note:** If you're looking for the bitcore-trvc Library please see: https://github.com/dashevo/bitcore-lib-trvc
 
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-trvc
 ```
 
 Spin up a full node and join the network:
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-trvc
 bitcored
 ```
 
@@ -26,7 +26,7 @@ You can then view the Insight block explorer at the default location: `http://lo
 
 Create a transaction:
 ```js
-var bitcore = require('bitcore-dash');
+var bitcore = require('bitcore-trvc');
 var transaction = new bitcore.Transaction();
 var transaction.from(unspent).to(address, amount);
 transaction.sign(privateKey);
@@ -34,10 +34,10 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Dash](https://github.com/dashevo/bitcore-node-dash) - A full node with extended capabilities using Dash Core
-- [Insight API-Dash](https://github.com/dashevo/insight-api-dash) - A blockchain explorer HTTP API
-- [Insight UI-Dash](https://github.com/dashevo/insight-ui-dash) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-dash) - A multisig HD service for wallets
+- [Node-Dash](https://github.com/dashevo/bitcore-node-trvc) - A full node with extended capabilities using Dash Core
+- [Insight API-Dash](https://github.com/dashevo/insight-api-trvc) - A blockchain explorer HTTP API
+- [Insight UI-Dash](https://github.com/dashevo/insight-ui-trvc) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-trvc) - A multisig HD service for wallets
 - [Wallet Client](https://github.com/dashevo/bitcore-wallet-client-dash) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
@@ -45,12 +45,12 @@ transaction.sign(privateKey);
 
 ## Libraries
 
-- [Lib-Dash](https://github.com/dashevo/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
+- [Lib-Dash](https://github.com/dashevo/bitcore-lib-trvc) - All of the core Dash primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
 - [P2P-Dash](https://github.com/dashevo/bitcore-p2p-dash) - The peer-to-peer networking protocol
 - [Mnemonic-Dash](https://github.com/dashevo/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
 - Channel - Micropayment channels for rapidly adjusting Dash transactions
-- [Message-Dash](https://github.com/dashevo/bitcore-message-dash) - Dash message verification and signing
+- [Message-Dash](https://github.com/dashevo/bitcore-node-trvc) - Dash message verification and signing
 - [ECIES-Dash](https://github.com/dashevo/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
@@ -70,7 +70,7 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-dash/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-trvc/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
